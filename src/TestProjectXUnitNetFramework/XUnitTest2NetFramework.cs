@@ -1,18 +1,18 @@
-using ClassLibraryNetStandard;
+﻿using ClassLibraryNetStandard;
 using Xunit;
 
-namespace TestProjectXUnit
+namespace TestProjectXUnitNetFramework
 {
-    public class XUnitTest2
+    public class XUnitTest2NetFramework
     {
         [Fact]
-        public void XUnitTest21()
+        public void XUnitTest21NetFramework()
         {
             var foo = new Class1();
             foo.Method1();
         }
         [Fact]
-        public void XUnitTest22()
+        public void XUnitTest22NetFramework()
         {
             var foo = new Class1();
             foo.Method1();
