@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MixedParallelTests.cs" />
+    <Compile Include="NotParallelTests.cs" />
     <Compile Include="NUnitTest2NetFramwork.cs" />
     <Compile Include="NUnitTest1NetFramwork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
