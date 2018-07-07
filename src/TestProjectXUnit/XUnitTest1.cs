@@ -1,4 +1,4 @@
-using System.Threading;
+using ClassLibraryNetStandard;
 using Xunit;
 
 namespace TestProjectXUnit
@@ -6,8 +6,16 @@ namespace TestProjectXUnit
     public class XUnitTest1
     {
         [Fact]
-        public void Test11() => Thread.Sleep(5000);
+        public void Test11()
+        {
+            var foo = new Class1();
+            foo.Method1();
+        }
         [Fact]
-        public void Test12() => Thread.Sleep(5000);
+        public void Test12()
+        {
+            var foo = new Class1();
+            foo.Method1();
+        }
     }
 }

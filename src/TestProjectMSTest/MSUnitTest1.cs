@@ -1,5 +1,5 @@
+using ClassLibraryNetStandard;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Threading;
 
 namespace TestProjectMSTest
 {
@@ -7,8 +7,16 @@ namespace TestProjectMSTest
     public class MSUnitTest1
     {
         [TestMethod]
-        public void MSTestMethod11() => Thread.Sleep(5000);
+        public void MSTestMethod11()
+        {
+            var foo = new Class1();
+            foo.Method1();
+        }
         [TestMethod]
-        public void MSTestMethod12() => Thread.Sleep(5000);
+        public void MSTestMethod12()
+        {
+            var foo = new Class1();
+            foo.Method1();
+        }
     }
 }
