@@ -9,13 +9,13 @@ public class MySetUpClass
     [OneTimeSetUp]
     public void RunBeforeAnyTests()
     {
-        Class1.Dictionary.TryAdd(DateTime.Now.Ticks, "one time setup for all classes in all namespaces");
+        Class1.Dictionary.TryAdd(DateTime.Now.Ticks, "one time setup per assembly");
     }
 
     [OneTimeTearDown]
     public void RunAfterAnyTests()
     {
-        Class1.Dictionary.TryAdd(DateTime.Now.Ticks, "one time cleanup for all classes in all namespaces");
+        Class1.Dictionary.TryAdd(DateTime.Now.Ticks, "one time cleanup per assembly");
         var list = Class1.Dictionary.ToList().OrderBy(d => d.Key).Select(d => d.Value);
         if (list != null)
         {
@@ -42,7 +42,6 @@ namespace TestProjectNUnit
     }
     public class NUnitInitCleanupTest
     {
-
         [OneTimeSetUp]
         public void InitPerClass()
         {

@@ -27,7 +27,6 @@ namespace TestProjectMSTest
     [TestClass]
     public class MSUnitTestInitCleanupTest
     {
-
         [ClassInitialize]
         public static void InitPerClass(TestContext testContext)
         {
