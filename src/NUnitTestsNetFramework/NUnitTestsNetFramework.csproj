@@ -8,8 +8,8 @@
     <ProjectGuid>{B8752B30-B531-4459-A721-685CC8ACA09C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestProjectNUnitNetFramework</RootNamespace>
-    <AssemblyName>TestProjectNUnitNetFramework</AssemblyName>
+    <RootNamespace>NUnitTestsNetFramework</RootNamespace>
+    <AssemblyName>NUnitTestsNetFramework</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataDrivenTests.cs" />
     <Compile Include="MixedParallelTests.cs" />
     <Compile Include="NotParallelTests.cs" />
     <Compile Include="NUnitTestsNetFramework2.cs" />

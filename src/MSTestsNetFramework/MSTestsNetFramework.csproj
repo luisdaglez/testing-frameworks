@@ -7,8 +7,8 @@
     <ProjectGuid>{91209429-910B-4EE4-B81F-5F95D51E224F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestProjectMSTestNetFramework</RootNamespace>
-    <AssemblyName>TestProjectMSTestNetFramework</AssemblyName>
+    <RootNamespace>MSTestsNetFramework</RootNamespace>
+    <AssemblyName>MSTestsNetFramework</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -48,6 +48,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataDrivenTests.cs" />
     <Compile Include="MSTestsNetFramework1.cs" />
     <Compile Include="MSTestsNetFramework2.cs" />
     <Compile Include="MixedParallelTests.cs" />

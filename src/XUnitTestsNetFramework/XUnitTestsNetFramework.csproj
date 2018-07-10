@@ -8,8 +8,8 @@
     <ProjectGuid>{30B8C8D9-7B9C-467B-ADC1-BDF602E7D07A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TestProjectXUnitNetFramework</RootNamespace>
-    <AssemblyName>TestProjectXUnitNetFramework</AssemblyName>
+    <RootNamespace>XUnitTestsNetFramework</RootNamespace>
+    <AssemblyName>XUnitTestsNetFramework</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <NuGetPackageImportStamp>
@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataDrivenTests.cs" />
     <Compile Include="XUnitTestsNetFramework2.cs" />
     <Compile Include="XUnitTestsNetFramework1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
